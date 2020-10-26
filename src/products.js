@@ -2,7 +2,7 @@ const products =[
     {
         _id:"1",
         name: 'IPhone',
-        image: './public/images/Iphone.png',
+        image: '/images/Iphone.png',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         brand:'Apple',
         category: 'electronics',
@@ -14,7 +14,7 @@ const products =[
     {
         _id:"2",
         name: 'IPhone Charger',
-        image: './public/images/charger.png',
+        image: '/images/charger.jpg',
         description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
         brand:'Apple',
         category: 'electronics',
@@ -26,7 +26,7 @@ const products =[
     {
         _id:"3",
         name: 'IPhone Case',
-        image: './public/images/Case.png',
+        image: '/images/Case.png',
         description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ',
         brand:'KewlCase',
         category: 'electronics',
@@ -36,3 +36,5 @@ const products =[
         numReviews:8,
     },
 ]
+
+export default products;
